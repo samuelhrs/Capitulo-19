@@ -57,28 +57,41 @@ section{
     padding-left: 20px;
     font-family: 'Courgette', cursive;
     font-weight: 100;
-    font-size: 4vw;
+    font-size: 3vw;
     
 
 }
-
 .sem_imagem{
     background-color: white;
     color: black;
 }
 
 .com_imagem{
-    background-color: darkblue;
     color: white;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.521);
+    background-attachment: fixed;
 }
 
 .com_imagem > p{
-    background-color: rgba(0, 0, 0, 0.171);
+    background-color: rgba(0, 0, 0, 0.466);
     display: inline-block;
     padding: 15px;
+    border-radius: 10px;
+    text-shadow: 1.5px 1.5px 0px #0000008c ;
 }
 
+#img01{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
 
+}
+
+#img02{
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+    background-size: cover;
+}
 
 
 
