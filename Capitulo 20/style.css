@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    background-color: rgb(233, 216, 216);
+    min-height: 100vh;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+
+header > h1{
+    padding-top: 50px;
+    text-transform: uppercase;
+
+}
+
+header > p{
+    padding-bottom: 50px;
+
+}
+
+header > p > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header > p > a:hover{
+    text-decoration: underline;
+}
+
+        /* -------FIM DA CONFIG DO CABEÇALHO-------------*/
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 20px;
+}
+
+.sem_imagem{
+    background-color: white;
+    color: black;
+}
+
+.com_imagem{
+    background-color: darkblue;
+    color: white;
+}
+
+.com_imagem > p{
+    background-color: rgba(0, 0, 0, 0.171);
+    width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    font-size: 0.8em;
+    margin-top: 10px;
+}
