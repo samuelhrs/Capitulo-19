@@ -38,13 +38,13 @@ header > p{
 
 }
 
-header > p > a{
+a{
     text-decoration: none;
     color: white;
     font-weight: bold;
 }
 
-header > p > a:hover{
+a:hover{
     text-decoration: underline;
 }
 
